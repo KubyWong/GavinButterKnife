@@ -1,0 +1,5 @@
+rootProject.name = "TestAbstractProcessor"
+include ':app'
+include ':gavin-butterknife-processor'
+include ':gavin-butterknife-annotation'
+include ':gavin-butterknife'
