@@ -45,4 +45,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation project(path: ':gavin-butterknife-annotation')
     annotationProcessor project(':gavin-butterknife-processor')
+    implementation project(path: ':gavin-butterknife')
 }
