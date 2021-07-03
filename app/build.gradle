@@ -46,5 +46,5 @@ dependencies {
     implementation project(path: ':gavin-butterknife-annotation')
     annotationProcessor project(':gavin-butterknife-processor')
 //    implementation project(path: ':gavin-butterknife')
-    implementation 'com.github.KubyWong:GavinButterKnife:1.0.2'
+    implementation 'com.github.KubyWong:GavinButterKnife:1.0.3'
 }

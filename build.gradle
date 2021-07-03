@@ -22,10 +22,6 @@ allprojects {
         google()
         jcenter()
         maven {
-            credentials {
-                username "ping798370123@126.com"
-                password "java13824123478"
-            }
             url "https://jitpack.io" }
     }
 }
