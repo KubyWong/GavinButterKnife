@@ -19,7 +19,8 @@ public class TestActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
-        new TestActivity$ViewBinder().bind(this);
+//        new TestActivity$ViewBinder().bind(this);
+        GavinButterKnife.bind(this);
         textView.setText("没有手动findById");
         textViewxx.setText("未封装api，直接使用Javapoet生成的类");
     }
