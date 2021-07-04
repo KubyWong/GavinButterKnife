@@ -1,9 +1,9 @@
 plugins {
     id 'java-library'
-    id 'com.github.dcendents.android-maven'
+//    id 'com.github.dcendents.android-maven'
 }
 
-group='com.github.KubyWong'
+//group='com.github.KubyWong'
 
 // group='com.github.你的github用户名'
 // 中文乱码问题（错误: 编码GBK的不可映射字符）
@@ -13,25 +13,4 @@ tasks.withType(JavaCompile) {
 java {
     sourceCompatibility = JavaVersion.VERSION_1_7
     targetCompatibility = JavaVersion.VERSION_1_7
-}
-
-task('myTaskItem1'){
-    println("scan life1")
-    doFirst {
-        println("执行时调用1")
-    }
-}
-
-task('myTaskItem2'){
-    doFirst {
-        println("执行时调用2")
-    }
-    println("scan life2")
-}
-
-task('myTaskItem3'){
-    println("scan life3")
-    doFirst {
-        println("执行时调用3")
-    }
 }

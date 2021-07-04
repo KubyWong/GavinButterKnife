@@ -1,10 +1,7 @@
 //:gavin-butterknife-processor/build.gradle
 plugins {
     id 'java-library'
-    id 'com.github.dcendents.android-maven'
 }
-
-group='com.github.KubyWong'
 java {
     sourceCompatibility = JavaVersion.VERSION_1_7
     targetCompatibility = JavaVersion.VERSION_1_7
